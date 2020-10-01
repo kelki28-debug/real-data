@@ -16,3 +16,6 @@ border-bottom: 10px solid yellow ;
 .purple{
  border-bottom: 10px solid purple ;   
 }
+.card-container{
+    margin-bottom: 2rem;
+}

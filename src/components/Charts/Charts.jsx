@@ -54,11 +54,12 @@ const Charts = ({ data }) => {
    {options === 'belipaketinternet' ? beliPaketCard : loginCard}
    </Grid>
     </div>
-    <div className="container-chart">
+   
     <NativeSelect  onChange={(e) => setOptions(e.target.value)}>
                 <option value="belipaketinternet">Beli Paket Internet</option>
                 <option value="login">Login</option>
             </NativeSelect>
+            <div className="container-chart">
        { options === 'belipaketinternet' ? beliPaket : login }
     </div>
         </div>;
